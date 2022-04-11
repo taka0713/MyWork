@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
+  <title>My Work practice</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
@@ -19,34 +19,34 @@
     <div class="header-logo">My Work</div>
     <nav class="header-list">
         <ul>
-            <li>About</li>
-            <li>Works</li>
-            <li>News</li>
-            <li>Contact</li>
-            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/"></a></li>
         </ul>
     </nav>
   </header>
   <main>
       <section>
-          <img src="./img/mainvisual-pc.jpg">
+          <img src="./img/mainvisual-pc.jpg" class="mainvisu">
       </section>
       <section>
-          <h2>About</h2>
-          <div>
+          <h2 id="about">About</h2>
+          <div class="about-list">
               <ul>
                 <li>Xxxxx Ashley</li>
-                <li>>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
+                <li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
                 <li>tel: 000-0000-0000</li>
                 <li>url: www.xxxxxx.jp</li>
                 <li>mail: xxx@xxxxxx.jp</li>
               </ul>
-              <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキスト</p>
           </div>
       </section>
       <section>
-          <h2>Works</h2>
-          <div>
+          <h2 id="works">Works</h2>
+          <div class="works-img">
             <ul>
                 <li><img src="./img/works1.jpg"></li>
                 <li><img src="./img/works2.jpg"></li>
@@ -58,8 +58,8 @@
           </div>
       </section>
       <section>
-          <h2>News</h2>
-          <table>
+          <h2 id="news">News</h2>
+          <table class="news-table">
             <tbody>
                 <tr>
                     <td>2020.XX.XX</td>
@@ -86,7 +86,7 @@
       </section>
       <section>
         <form>
-          <h2>Contact</h2>
+          <h2 id="contact">Contact</h2>
           <table>
             <tr>
               <td>name</td>

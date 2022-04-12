@@ -81,7 +81,7 @@ h2{
 }
 
 .news-table tr td{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(90, 86, 86);
     width: 860px;
     margin: 0 auto;
 }
@@ -91,5 +91,10 @@ h2{
 }
 
 footer{
-    max-width: 960px;
+    max-width: 100%;
+    background-color: black;
+    color: #fff;
+    font-size: 5px;
+    text-align: center;
+    padding: 10px 0;
 }

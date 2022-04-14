@@ -88,6 +88,21 @@ h2{
     border-collapse: collapse;
 }
 
+input{
+    width: 730px;
+    height: 40px;
+}
+
+textarea{
+    width: 730px;
+    height: 160px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+}
+
 footer{
     max-width: 100%;
     background-color: black;

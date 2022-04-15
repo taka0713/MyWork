@@ -164,17 +164,74 @@ footer{
         flex-direction: column;
     }
 
+    .table-top{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .news-table{
+        height: 550px;
+    }
+
+    .table-date{
+        width: 100%;
+        
+    }
+
+    .table-date2{
+        padding: 30px;
+    }
+
+    .table-date3{
+        padding: 30px;
+    }
+
+    .table-date4{
+        padding: 30px;
+    }
+
+    .table-date5{
+        padding: 30px;
+    }
+
+    .table-mess{
+        width: 100%;
+        
+    }
+
+    .table-sec{
+        height: 600px;
+    }
+
+    .btn-sect{
+        height: 400px;
+    }
+
     .btn{
-        width: 400px;
+        width: 350px;
         height: 30px;
     }
 
     textarea{
-        width: 400px;
-        height: 30px;
+        width: 350px;
+        height: 90px;
     }
 
-    .btn-sect{
-        height: auto;
+    .contact-top{
+        display: flex;
+        flex-direction: column;
+    }
+
+    form{
+        height: 500px;
+    }
+
+    .table-top{
+        height: 350px;
+    }
+
+    .contact-top{
+        height: 80px;
     }
 }

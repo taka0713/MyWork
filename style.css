@@ -39,9 +39,13 @@ a {
     vertical-align: -5px;
 }
 
+main{
+    max-width: 100%;
+}
+
 .mainvisu{
-    width: 1170px;
-    height: 420px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -60,7 +64,8 @@ h2{
 }
 
 .about-list ul{
-    margin-left: -40px;
+    margin: 0;
+    padding: 0;
 }
 
 .list-ash{
@@ -73,24 +78,47 @@ h2{
     
 }
 
+.works-img li{
+    width: 33%;
+}
+
+
 .works-img{
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 .news-table tr td{
-    border-bottom: 1px solid rgb(90, 86, 86);
-    width: 860px;
+    border-bottom: 1px solid rgb(147, 142, 142);
+    border-top: 1px solid rgb(160, 151, 151);
     margin: 0 auto;
+    font-size: 15px;
+}
+
+.news-table tr{
+    height: 50px;
 }
 
 .news-table{
     border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
 }
 
-input{
+.table-date{
+    width: 30%;
+}
+
+.btn{
     width: 730px;
     height: 40px;
+}
+
+.btn-sub{
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    color: #fff;
 }
 
 textarea{
@@ -98,9 +126,9 @@ textarea{
     height: 160px;
 }
 
-.btn{
-    width: 100px;
-    height: 40px;
+.btn-sect{
+    width: 80%;
+    margin: 0 auto;
 }
 
 footer{
@@ -110,4 +138,43 @@ footer{
     font-size: 5px;
     text-align: center;
     padding: 10px 0;
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width:480px) {
+
+    header{
+        max-width: 480px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .header-logo{
+        font-size: 35px;
+        margin: 0;
+        height: 60px;
+    }
+
+    .header-list li{
+        font-size: 10px;
+    }
+
+    .works-img{
+        flex-direction: column;
+    }
+
+    .btn{
+        width: 400px;
+        height: 30px;
+    }
+
+    textarea{
+        width: 400px;
+        height: 30px;
+    }
+
+    .btn-sect{
+        height: auto;
+    }
 }

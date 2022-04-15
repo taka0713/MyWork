@@ -7,6 +7,7 @@
   <title>My Work practice</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 
   <link rel="stylesheet" href="./style.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
@@ -46,8 +47,8 @@
       </section>
       <section>
           <h2 id="works">Works</h2>
-          <div class="works-img">
-            <ul>
+          <div>
+            <ul class="works-img">
                 <li><img src="./img/works1.jpg"></li>
                 <li><img src="./img/works2.jpg"></li>
                 <li><img src="./img/works3.jpg"></li>
@@ -62,48 +63,46 @@
           <table class="news-table">
             <tbody>
                 <tr>
-                    <td>2020.XX.XX</td>
+                    <td class="table-date">2020.XX.XX</td>
                     <td>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</td>
                 </tr>
                 <tr>
-                    <td>2020.XX.XX</td>
+                    <td class="table-date">2020.XX.XX</td>
                     <td>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</td>
                 </tr>
                 <tr>
-                    <td>2019.XX.XX</td>
+                    <td class="table-date">2019.XX.XX</td>
                     <td>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</td>
                 </tr>
                 <tr>
-                    <td>2019.XX.XX</td>
+                    <td class="table-date">2019.XX.XX</td>
                     <td>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</td>
                 </tr>
                 <tr>
-                    <td>2019.XX.XX</td>
+                    <td class="table-date">2019.XX.XX</td>
                     <td>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</td>
                 </tr>
             </tbody>
           </table>
       </section>
-      <section>
+      <section class="btn-sect">
         <form>
           <h2 id="contact">Contact</h2>
           <table>
             <tr>
               <td>NAME</td>
-              <td><input></td>
+              <td><input class="btn"></td>
             </tr>
             <tr>
               <td>E-mail</td>
-              <td><input></td>
+              <td><input class="btn"></td>
             </tr>
             <tr>
               <td>MESSAGE</td>
               <td><textarea></textarea></td>
             </tr>
           </table>
-          <div class="btn">
-            <input type="submit" value="送信">
-          </div>
+            <input type="submit" value="送信" class="btn-sub">
         </form>
       </section>
   </main>

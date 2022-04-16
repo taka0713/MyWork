@@ -45,7 +45,7 @@ main{
 
 .mainvisu{
     width: 100%;
-    height: 100%;
+    height: 420px;
     object-fit: cover;
 }
 
@@ -131,6 +131,10 @@ textarea{
     margin: 0 auto;
 }
 
+form{
+    text-align: center;
+}
+
 footer{
     max-width: 100%;
     background-color: black;
@@ -141,6 +145,11 @@ footer{
     margin-top: 100px;
 }
 
+.mainvisu-sp{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
 
 @media screen and (max-width:480px) {
 
@@ -174,25 +183,28 @@ footer{
         height: 550px;
     }
 
+    .news-table tr {
+        margin-bottom: 25px;
+    }
     .table-date{
         width: 100%;
         
     }
 
     .table-date2{
-        padding: 30px;
+        margin: 30px;
     }
 
     .table-date3{
-        padding: 30px;
+        margin: 30px;
     }
 
     .table-date4{
-        padding: 30px;
+        margin: 30px;
     }
 
     .table-date5{
-        padding: 30px;
+        margin: 30px;
     }
 
     .table-mess{

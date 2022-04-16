@@ -180,7 +180,7 @@ footer{
     }
 
     .news-table{
-        height: 550px;
+        height: 400px;
     }
 
     .news-table tr {
@@ -245,5 +245,9 @@ footer{
 
     .contact-top{
         height: 80px;
+    }
+
+    footer{
+        margin-top: 360px;
     }
 }
